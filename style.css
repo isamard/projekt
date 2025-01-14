@@ -3,11 +3,6 @@ body {
     margin: 0px;
 }
 
-.container-fluid {
-    padding-left:0px;
-    padding-right:0px
-}
-
 ul.horizontal {
     list-style-type: none;
     margin: 0px;
@@ -29,4 +24,8 @@ li {
     color: #FFF;
     font-size: 15px;
     line-height: 1px;
+}
+
+p, h1 {
+    margin-left: 4px;
 }
