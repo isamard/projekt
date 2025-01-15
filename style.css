@@ -42,6 +42,7 @@ li {
     line-height: 1px;
 }
 
-p, h1 {
-    margin-left: 4px;
+p, h1, a, i {
+    margin-left: 10px;
+    margin-right: 10px;
 }
