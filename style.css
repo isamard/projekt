@@ -3,6 +3,22 @@ body {
     margin: 0px;
 }
 
+footer {
+    margin: 0px;
+    background-color: #333;
+    padding-left: 0px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 5%;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    line-height: 1.5;
+}
+
 ul.horizontal {
     list-style-type: none;
     margin: 0px;
