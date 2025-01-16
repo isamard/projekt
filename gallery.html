@@ -10,6 +10,38 @@
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
         <link rel="stylesheet" href="style.css">
+
+        <style>
+            figure {
+                margin: 5px;
+                border: 2px solid black;
+                border-top: 100%;
+                padding: 5px;
+            }
+
+            figure img {
+                width: 450px;
+                height: 350px;
+            }
+
+            figure figcaption {
+                text-align: center;
+                max-width: 450px;
+                word-wrap: break-word;
+            }
+
+            .gallery {
+                display: inline-flex;
+                width: 100%;
+                height: 100%;
+                flex-wrap: wrap;
+            }
+
+            figure a {
+                margin: 0px 0px;
+            }
+        </style>
+
     </head>
     
     <body>
@@ -17,13 +49,75 @@
             <nav>
                 <ul class="horizontal">
                     <li><a href="./index.html">Početna stranica</a></li>
-                    <li><a href="./news.html">Novosti</a></li>
+                    <li><a href="./news.html">Vijesti</a></li>
                     <li><a href="./contact.html">Kontakt</a></li>
                     <li><a href="./about.html">O nama</a></li>
                     <li><a href="./gallery.html">Galerija</a></li>
                 </ul>
             </nav>
         </header>
+
+        <div class="gallery">
+            <figure>
+                <a target="_blank" href="img/gallery1.jpg"><img src="img/gallery1.jpg"></a>
+                <figcaption>Maecenas porta vestibulum neque eget tincidunt. Ut nibh ipsum, egestas quis malesuada eu, ullamcorper quis mi. In hac habitasse platea dictumst.</figcaption>
+            </figure>
+
+            <figure>
+                <a target="_blank" href="img/gallery2.jpg"><img src="img/gallery2.jpg"></a>
+                <figcaption>Aliquam erat volutpat. Cras laoreet quis dui et semper.</figcaption>
+            </figure>
+
+            <figure>
+                <a target="_blank" href="img/gallery3.jpg"><img src="img/gallery3.jpg"></a>
+                <figcaption>Fusce ut odio nec felis tristique congue vitae at metus. Aenean mattis sapien eget accumsan congue.</figcaption>
+            </figure>
+
+            <figure>
+                <a target="_blank" href="img/gallery4.jpg"><img src="img/gallery4.jpg"></a>
+                <figcaption>In placerat lobortis iaculis. Pellentesque auctor ipsum cursus elit rhoncus, ac ullamcorper nisi auctor.</figcaption>
+            </figure>
+            
+            <figure>
+                <a target="_blank" href="img/gallery5.jpg"><img src="img/gallery5.jpg"></a>
+                <figcaption>Donec vitae augue justo. In vestibulum tincidunt ante, sed faucibus dolor.</figcaption>
+            </figure>
+
+            <figure>
+                <a target="_blank" href="img/gallery6.jpg"><img src="img/gallery6.jpg"></a>
+                <figcaption>Nunc facilisis tincidunt mauris quis eleifend. Phasellus a aliquet ex.</figcaption>
+            </figure>
+
+            <figure>
+                <a target="_blank" href="img/gallery7.jpg"><img src="img/gallery7.jpg"></a>
+                <figcaption>Vestibulum nisi nibh, tempus et purus vitae, accumsan ullamcorper dui. Mauris a felis nunc.</figcaption>
+            </figure>
+
+            <figure>
+                <a target="_blank" href="img/gallery8.jpg"><img src="img/gallery8.jpg"></a>
+                <figcaption>Donec ac fermentum quam. Cras eget scelerisque felis, aliquet pulvinar mi.</figcaption>
+            </figure>
+
+            <figure>
+                <a target="_blank" href="img/gallery9.jpg"><img src="img/gallery9.jpg"></a>
+                <figcaption>Donec vitae augue justo. In vestibulum tincidunt ante, sed faucibus dolor.</figcaption>
+            </figure>
+
+            <figure>
+                <a target="_blank" href="img/gallery10.jpg"><img src="img/gallery10.jpg"></a>
+                <figcaption>Donec vel interdum dolor. Curabitur ac lorem aliquam, egestas eros quis, fermentum leo.</figcaption>
+            </figure>
+
+            <figure>
+                <a target="_blank" href="img/gallery11.jpg"><img src="img/gallery11.jpg"></a>
+                <figcaption>Nunc ultricies rutrum orci, eu condimentum ex semper venenatis. In vitae vulputate sem.</figcaption>
+            </figure>
+
+            <figure>
+                <a target="_blank" href="img/gallery12.jpg"><img src="img/gallery12.jpg"></a>
+                <figcaption>Aenean sapien nunc, facilisis ac tempus in, tempor id nunc. Curabitur egestas nulla gravida aliquet efficitur. Nullam vel interdum est.</figcaption>
+            </figure>
+        </div>
 
         <footer>
             <div class="footer">
